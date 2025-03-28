@@ -1,0 +1,302 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    perspective: 600px;
+    background-image: linear-gradient(red, blue );
+
+} 
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 23px;
+    border: 4px  sandybrown;
+
+     
+}
+table{
+   display: none; 
+    
+
+}
+.link1 :hover .table{
+display: block;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+      }
+      nav:hover .link1{
+         border: 3px  sandybrown solid;
+ 
+      }
+      nav:hover .link2{
+        border: 3px  sandybrown solid;
+
+     }
+     nav:hover .link3{
+        border: 3px  sandybrown solid;
+
+     }
+     nav:hover .link4{
+        border: 3px  sandybrown solid;
+
+     }
+     nav:hover .link5{
+        border: 3px  sandybrown solid;
+
+     }
+     nav:hover .link6{
+        border: 3px  sandybrown solid;
+
+     }
+
+      .conter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 7px;
+    
+ } 
+ .content .chair{
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+    margin-right: auto;
+
+
+}
+button{
+    
+    color:rgb(123, 23, 218) ;
+    border: solid 2px ;
+    background-image: linear-gradient(rgb(234, 236, 113), rgb(173, 101, 240) );
+    font-size: 15px;
+ border-radius: 20px  20px ;
+ height:40px;
+}
+ 
+.content{
+margin: 10% auto;
+      
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    height: 300px;
+    text-align: left;
+    width: 80vw;
+    background-color: rgb(240, 131, 54);
+} 
+h1{
+    text-align: center;
+
+}
+.line{
+    border-radius: 50%;
+    background-color: rgb(240, 131, 54);
+    width: 120px;
+    height:3px;
+    margin: auto;
+    margin-bottom: 100px;
+    margin-top: 11px;
+}
+.section2{
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+}
+h4{
+    color: black;
+}
+.img1{
+    background-color: lightgray;
+}
+.img2{
+    background-color: rgb(243, 164, 138);
+}
+.img3{
+    background-color: rgb(187, 225, 250);
+}
+.img4{
+    background-color: rgb(236, 157, 210);
+}
+   
+
+.text{
+    text-align: center;
+
+}
+
+
+.section3 .contenur{
+    display: flex;
+    justify-content: space-around;
+}
+.section3 .wordpenelope{
+    background-color: rgb(240, 131, 54);
+    
+}
+.section4{
+    margin: 25px 8%;
+    height: 100vh;
+    
+    
+    
+}
+.section4 .line2{
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-family: system-ui;
+}
+
+.section4 .line2::after{
+    content: "";
+    position: absolute;
+    width: 295px;
+    height: 4px;
+    left: 50%;
+    transform: translate(-49%, 50px);
+    border-radius: 25px;
+    background-color:  white;
+}
+.section4 .perant{
+    position: relative;
+    
+
+
+}
+.section4 .perant .perant2{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 106px;
+    width: 100%;
+}
+ .section4 .perant .perant2 .front{
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 1s;
+    width: 300px;
+    height: 400px;
+}
+
+
+
+.section4 .perant{
+    position: relative;
+
+
+}
+.section4 .perant .perant2{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 106px;
+    width: 100%;
+}
+.section4 .perant .perant2 .front{
+    position: relative;
+    transform-style: preserve-3d;
+    transition: 1s;
+    width: 300px;
+    height: 400px;
+}
+.section4 .perant .perant2 .front:hover{
+    transform: rotateY(180deg);
+
+}
+.section4 .perant .perant2 .front img,.section4 .perant .perant2 .front .back{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    background-color: rgb(108, 238, 238); 
+
+}
+.section4 .perant .perant2 .front img{
+    z-index: 55;
+    backface-visibility: hidden;
+}
+.section4 .perant .perant2 .front .back{
+    background-color: azure;
+    transform: rotateY(180deg);
+    
+    
+}
+.section2  img  {
+    cursor: pointer;
+    line-height: 30px;
+    width: fit-content;
+    border: 12px solid black ;
+    border-radius: 32px;
+}
+.section2{
+height: 250px;
+display: flex;
+justify-content: space-around; 
+margin-bottom: 50px;
+position: relative;
+
+
+}
+
+
+.section2   #btn6:active{
+/* border: 12px solid rgb(240, 55, 86) ; */
+/* padding: 23px; */
+cursor: pointer;
+}
+.buy{
+position:absolute ;
+margin-top: 23px;
+} 
+img{
+width: fit-content;
+height: 250px;
+
+} 
+/* .price2{
+height: 300px;
+width: 288px;
+background-color: blue;
+} */
+#btn6{
+    background-color: aqua;
+    padding: 20px;
+}
+
+
+.section2   #btn6:active{
+    border: 12px solid rgb(240, 55, 86) ;
+    padding: 23px;
+  
+  }
+    .buy{
+      position:absolute ;
+      margin-top: 23px;
+    } 
+    img{
+      width: fit-content;
+      height: 250px;
+      
+    } 
+    .bb{
+      height: 300px;
+      width: 288px;
+      background-color: blue;
+    }
